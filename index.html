@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#fff8f1">
+  <meta name="description" content="A little love letter made especially for Sonu.">
+  <title>For Sonu ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar" id="top">
+    <a class="brand" href="#home" aria-label="For Sonu home"><span>♡</span> For Sonu</a>
+    <nav aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#moments">Our Moments</a>
+      <a href="#letter">A Letter</a>
+    </nav>
+    <button type="button" class="moon" id="theme" aria-label="Toggle dark mode">☾</button>
+  </header>
+
+  <main>
+    <section class="cover" id="home">
+      <div class="cover-content">
+        <p class="small-label">A little page, just for you</p>
+        <h1>For <span>Sonu</span><br><i>with all my heart.</i></h1>
+        <p class="cover-text">No matter what kind of day it is, there is one thing I want you to remember.</p>
+        <div class="cover-line"><span></span><b>♡</b><span></span></div>
+        <p class="cover-note">I still love you.</p>
+        <a class="primary" href="#moments">Open our little story <b>↓</b></a>
+      </div>
+      <div class="cover-image-wrap">
+        <img class="cover-image" src="./cover.png" alt="A couple watching the sunset together">
+      </div>
+      <div class="scroll-hint">scroll gently <span>↓</span></div>
+    </section>
+
+    <section class="moments" id="moments">
+      <div class="section-title">
+        <div>
+          <p class="kicker">01 · through it all</p>
+          <h2>Our <em>moments</em></h2>
+        </div>
+        <p class="subtitle">Different moments.<br>Same feeling. ♡</p>
+      </div>
+
+      <div class="carousel" id="carousel" aria-label="Our four moments">
+        <button type="button" class="arrow prev" id="prev" aria-label="Previous moment">←</button>
+        <div class="track-wrap">
+          <div class="track" id="track">
+            <article class="slide">
+              <div class="polaroid"><img src="./moment-1.png" alt="A couple talking together over coffee"></div>
+              <div class="caption"><span>01</span><p>Even when we argue,<br><strong>I still love you.</strong></p></div>
+            </article>
+            <article class="slide">
+              <div class="polaroid"><img src="./moment-2.png" alt="A couple together in the rain"></div>
+              <div class="caption"><span>02</span><p>Even when we disagree,<br><strong>I still love you.</strong></p></div>
+            </article>
+            <article class="slide">
+              <div class="polaroid"><img src="./moment-3.png" alt="A couple having a difficult day together"></div>
+              <div class="caption"><span>03</span><p>Even on a bad day,<br><strong>I still love you.</strong></p></div>
+            </article>
+            <article class="slide">
+              <div class="polaroid"><img src="./moment-4.png" alt="A person sitting by a moonlit window"></div>
+              <div class="caption"><span>04</span><p>Whatever happens,<br><strong>my feelings stay.</strong></p></div>
+            </article>
+          </div>
+        </div>
+        <button type="button" class="arrow next" id="next" aria-label="Next moment">→</button>
+      </div>
+      <div class="dots" id="dots" aria-label="Choose a moment"></div>
+      <p class="swipe-tip">← swipe left or right →</p>
+    </section>
+
+    <section class="letter" id="letter">
+      <div class="letter-card">
+        <div class="letter-mark">♡</div>
+        <p class="kicker">02 · a little letter</p>
+        <h2>Dear Sonu,</h2>
+        <p>You're one of the most special parts of my life. I know every day can't be perfect, and we won't always see everything the same way.</p>
+        <p>But through the good days, the quiet days, the difficult days and all the silly little moments in between, I want you to know that you matter to me.</p>
+        <p>Thank you for being part of my life and for giving me memories I want to keep.</p>
+        <p class="signature">I love you, always.<br><strong>— Hari ♡</strong></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="heart">♡</div>
+      <p class="kicker">made just for you</p>
+      <h2>Whatever the day brings,<br><em>I'm still here.</em></h2>
+      <a href="#top" class="back">back to the beginning ↑</a>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
